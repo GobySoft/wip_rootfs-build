@@ -5,3 +5,6 @@ openssh-server
 ubuntu-minimal
 ubuntu-standard
 wpasupplicant
+git
+cmake
+clang

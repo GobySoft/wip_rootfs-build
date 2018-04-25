@@ -12,9 +12,9 @@ lb config noauto \
  --bootstrap-qemu-static /usr/bin/qemu-arm-static \
  --chroot-filesystem none \
  --compression gzip \
- --distribution vivid \
- --iso-volume "Gumstix Vivid" \
- --iso-publisher "Gumstix https://www.gumstix.com" \
+ --distribution xenial \
+ --iso-volume "OOI CGSN Mooring" \
+ --iso-publisher "CGSN http://www.whoi.edu/ooi_cgsn/home" \
  --linux-flavours none \
  --linux-packages none \
  --mode ubuntu \
