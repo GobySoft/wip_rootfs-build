@@ -4,3 +4,10 @@
 /cache/
 /chroot/
 /config/
+/binary-tar.tar.gz
+/binary.contents
+/binary.packages
+/binary/
+/chroot.headers
+/chroot.packages.install
+/chroot.packages.live
