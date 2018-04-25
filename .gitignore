@@ -1,0 +1,6 @@
+/.build/
+/.lock
+/build.log
+/cache/
+/chroot/
+/config/
