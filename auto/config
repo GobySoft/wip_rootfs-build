@@ -18,7 +18,6 @@ lb config noauto \
  --linux-flavours none \
  --linux-packages none \
  --mode ubuntu \
- --swap-file-path /swapfile \
  --system normal
 
 cp -rf customization/* config/

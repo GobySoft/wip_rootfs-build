@@ -1,10 +1,32 @@
-build-essential
-linux-firmware
+# core
 initramfs-tools
 openssh-server
 ubuntu-minimal
 ubuntu-standard
-wpasupplicant
-git
-cmake
-clang
+
+# cgsn-mooring dependencies
+libb64-0d
+libboost-atomic1.58.0
+libboost-chrono1.58.0
+libboost-date-time1.58.0
+libboost-filesystem1.58.0
+libboost-program-options1.58.0
+libboost-regex1.58.0
+libboost-system1.58.0
+libboost-thread1.58.0
+libc6
+libcrypto++9v5
+libdccl3
+libgcc1
+libgmp10
+libgoby3
+libncurses5
+libproj9
+libprotobuf9v5
+libstdc++6
+libtinfo5
+libzmq5
+goby3-apps
+
+# tools
+socat

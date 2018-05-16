@@ -11,3 +11,4 @@
 /chroot.headers
 /chroot.packages.install
 /chroot.packages.live
+*~
