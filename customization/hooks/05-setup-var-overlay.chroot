@@ -1,8 +1,0 @@
-#!/bin/sh  
-
-echo "mv var var_ro"
-mv /var /var_ro
-mkdir /var
-
-echo "mkdir /media/data"
-mkdir /media/data
