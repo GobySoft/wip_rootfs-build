@@ -5,5 +5,9 @@
 # that works even if disks are added and removed. See fstab(5).
 #
 # <file system> <mount point>   <type>  <options>       <dump>  <pass>
-/dev/mmcblk0p2  /       ext4    errors=remount-ro   0   1
-/dev/mmcblk0p1  /boot   vfat    errors=remount-ro   0   1
+
+/dev/mmcblk0p2  /   ext4    ro   0   1
+/dev/mmcblk0p1  /boot  vfat ro   0   1
+/dev/sda1       /media/data  ext4  rw,errors=remount-ro   0   1
+overlay         /var overlay noauto,x-systemd.requires-mounts-for=/media/data,x-systemd.automount,lowerdir=/var_ro,upperdir=/media/data/var,workdir=/media/data/overlaywork 0 1
+tmpfs           /tmp tmpfs rw,nosuid,nodev 0 1
