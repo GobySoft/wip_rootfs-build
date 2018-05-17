@@ -1,0 +1,6 @@
+# core
+ubuntu-minimal
+ubuntu-standard
+initramfs-tools
+btrfs-tools
+overlayroot

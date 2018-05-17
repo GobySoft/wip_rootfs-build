@@ -1,9 +1,0 @@
-#!/bin/sh  
-
-echo "mv var var_ro"
-mv binary/var binary/var_ro
-mkdir binary/var
-
-echo "mkdir /media/data"
-mkdir binary/media/data
-
