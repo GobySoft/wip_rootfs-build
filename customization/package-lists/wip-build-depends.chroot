@@ -1,0 +1,6 @@
+libgoby3-dev
+libgoby3-gui-dev
+build-essential
+clang
+libopenjp2-7-dev
+cmake
