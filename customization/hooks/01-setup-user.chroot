@@ -1,7 +1,7 @@
 #!/bin/sh  
 
-echo "I: create cgsnuser user"
-adduser --gecos cgsnuser --disabled-login cgsnuser
+echo "I: create gobysoft user"
+adduser --gecos gobysoft --disabled-login gobysoft
 
-echo "I: set cgsnuser user password"
-echo "cgsnuser:cgsnuser@02543^" | chpasswd
+echo "I: set gobysoft user password"
+echo "gobysoft:wip@02543!" | chpasswd
