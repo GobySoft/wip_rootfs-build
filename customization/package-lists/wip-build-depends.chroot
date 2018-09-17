@@ -4,3 +4,8 @@ build-essential
 clang
 libopenjp2-7-dev
 cmake
+libtiff-dev
+libmagick++-dev
+libpng12-dev
+protobuf-compiler
+dccl3-compiler
