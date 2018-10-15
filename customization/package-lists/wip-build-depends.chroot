@@ -9,3 +9,4 @@ libmagick++-dev
 libpng12-dev
 protobuf-compiler
 dccl3-compiler
+libi2c-dev

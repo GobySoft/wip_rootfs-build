@@ -13,8 +13,8 @@ lb config noauto \
  --chroot-filesystem none \
  --compression gzip \
  --distribution xenial \
- --iso-volume "OOI CGSN Mooring" \
- --iso-publisher "CGSN http://www.whoi.edu/ooi_cgsn/home" \
+ --iso-volume "WIP Comms" \
+ --iso-publisher "WIP Comms" \
  --linux-flavours none \
  --linux-packages none \
  --mode ubuntu \

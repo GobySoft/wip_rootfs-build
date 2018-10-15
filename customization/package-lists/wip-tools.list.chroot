@@ -7,3 +7,6 @@ screen
 git
 openvpn
 ppp
+picocom
+mosh
+i2c-tools

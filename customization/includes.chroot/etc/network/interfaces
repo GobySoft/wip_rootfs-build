@@ -5,5 +5,10 @@ auto lo
 iface lo inet loopback
 
 # USB ethernet
-auto enx00e05c780389
-iface enx00e05c780389 inet dhcp
+#auto enx00e04c5121db
+iface enx00e04c5121db inet dhcp
+
+
+iface ppp0 inet ppp
+    provider fona
+    options debug
