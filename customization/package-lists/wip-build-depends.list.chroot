@@ -10,3 +10,5 @@ libpng12-dev
 protobuf-compiler
 dccl3-compiler
 libi2c-dev
+python3-pip
+libpq-dev

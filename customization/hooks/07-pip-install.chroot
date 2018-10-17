@@ -1,0 +1,12 @@
+#!/bin/bash
+
+
+python3 -m pip install --user virtualenv
+
+cd /opt
+git clone https://github.com/joefutrelle/pyifcb.git
+cd pyifcb
+python3 -m virtualenv wipenv
+source wipenv/bin/activate
+pip install psycopg2 .
+deactivate
